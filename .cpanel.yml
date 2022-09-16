@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/username/public_html/
-    - /bin/cp -R viniciusdev $DEPLOYPATH
+    - /bin/cp -R /home/username/gitrepo/testing $DEPLOYPATH
