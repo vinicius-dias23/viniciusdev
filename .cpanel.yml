@@ -1,5 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/username/public_html/
-    - /bin/cp -R /home/username/gitrepo/testing $DEPLOYPATH
+    - export DEPLOYPATH=/home/cpanel_username/
+    - /bin/cp -R /home/cpanel_username/repo/public_html $DEPLOYPATH
+    - /bin/cp -R /home/cpanel_username/repo/lib $DEPLOYPATH
