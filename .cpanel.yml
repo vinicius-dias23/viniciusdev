@@ -1,6 +1,5 @@
 ---
 deployment:
-  tasks:
-    - export DEPLOYPATH=/home/cpanel_username/
-    - /bin/cp -R /home/cpanel_username/repo/public_html $DEPLOYPATH
-    - /bin/cp -R /home/cpanel_username/repo/lib $DEPLOYPATH
+ tasks:
+ - export DEPLOYPATH=/home/user/public_html/
+ - /bin/cp index.html $DEPLOYPATH
