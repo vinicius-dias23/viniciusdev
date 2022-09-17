@@ -12,11 +12,10 @@
 	<link rel="stylesheet" href="assets/css/johndoe.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
     <header class="header">
         <div class="container">
             <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" target="_blank" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" target="_blank" href="https://wa.me/5531995013271"><i class="ti-mobile" aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link text-light" target="_blank" href="https://twitter.com/vinicius_diast"><i class="ti-twitter" aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link text-light" target="_blank" href="https://www.linkedin.com/in/vinicius-dias-68b7ba1a3"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link text-light" target="_blank" href="https://www.instagram.com/vinicius_diast"><i class="ti-instagram" aria-hidden="true"></i></a></li>
@@ -26,7 +25,7 @@
                 <h4 class="header-subtitle" >Olá, eu sou</h4>
                 <h1 class="header-title">Vinícius Dias</h1>
                 <h6 class="header-mono" >Web Developer</h6>
-                <button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</button>
+                <button class="btn btn-primary btn-rounded"><i class="ti-mobile pr-2"></i>WhatsApp para contato</button>
             </div>
         </div>
     </header>
@@ -41,10 +40,10 @@
                         <a href="#home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">Sobre</a>
+                        <a href="#sobre" class="nav-link">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link">Serviços</a>
+                        <a href="#service" class="nav-link">Serviços</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
@@ -56,77 +55,79 @@
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#portfolio" class="nav-link">Pacotes</a>
+                        <a href="#price" class="nav-link">Pacotes</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#blog" class="nav-link">Resumo</a>
+                        <a href="#resume" class="nav-link">Certificados</a>
                     </li>
                     <li class="nav-item last-item">
-                        <a href="#contact" class="nav-link">Contato</a>
+                        <a href="#rodape" class="nav-link">Rodapé</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container-fluid">
-        <div id="about" class="row about-section">
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Quem eu sou ?</h3>
-                <span class="line mb-5"></span>
-                <h5 class="mb-3">Um profissional da área de desenvolvimento e universitário cursando Engenharia de Software </h5>
-                <p class="mt-20">Entrei na instituição COTEMIG com 15 anos em 2018.
-                    Em 2019 fui contratado pela Linear Sistemas, como estagiário de suporte técnico.
-                    Maio de 2020 passei a desempenhar o papel de desenvolvedor web da Linear Sistemas.</p>
-                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
-            </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Informação pessoal</h3>
-                <span class="line mb-5"></span>
-                <ul class="mt40 info list-unstyled">
-                    <li><span>Aniversário</span> : 23/04/2003 </li>
-                    <li><span>Email</span> : viniciussd23@gmail.com </li>
-                    <li><span>Telefone</span> : +55 (31) 99501-3271 </li>
-                    <li><span>Discord</span> : vinix#4766 </li>
-                    <li><span>Local</span> : Belo Horizonte / MG </li>
-                </ul>
-                <ul class="social-icons pt-3">
-                    <li class="social-item"><a class="social-link" target="_blank" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" target="_blank" href="https://twitter.com/vinicius_diast"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" target="_blank" href="https://www.linkedin.com/in/vinicius-dias-68b7ba1a3"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" target="_blank" href="https://www.instagram.com/vinicius_diast"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" target="_blank" href="https://github.com/vinicius-dias23"><i class="ti-github" aria-hidden="true"></i></a></li>
-                </ul>  
-            </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Minha Experiência</h3>
-                <span class="line mb-5"></span>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>UX Design</h6>
-                        <p class="subtitle">Para trazer a melhor experiência do usuário nas aplicações.</p>
-                        <hr>
-                    </div>
+    <section class="section" id="sobre">
+        <div class="container-fluid">
+            <div id="about" class="row about-section" style="margin-top: -50px;">
+                <div class="col-lg-4 about-card">
+                    <h3 class="font-weight-light">Quem eu sou ?</h3>
+                    <span class="line mb-5"></span>
+                    <h5 class="mb-3">Um profissional da área de desenvolvimento e universitário cursando Engenharia de Software </h5>
+                    <p class="mt-20">Entrei na instituição COTEMIG com 15 anos em 2018.
+                        Em 2019 fui contratado pela Linear Sistemas, como estagiário de suporte técnico.
+                        Maio de 2020 passei a desempenhar o papel de desenvolvedor web da Linear Sistemas.</p>
+                    <a target="_blank" href="https://www.linkedin.com/in/vinicius-dias-68b7ba1a3"><button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Confira mais no meu Linkedin</button></a>
                 </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-vector icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Desenvolvimento Web</h6>
-                        <p class="subtitle">Por meio de linguagens e ferramentas que estão em alta no mercado.</p>
-                        <hr>
-                    </div>
+                <div class="col-lg-4 about-card">
+                    <h3 class="font-weight-light">Informação pessoal</h3>
+                    <span class="line mb-5"></span>
+                    <ul class="mt40 info list-unstyled">
+                        <li><span>Aniversário</span> : 23/04/2003 </li>
+                        <li><span>Email</span> : viniciussd23@gmail.com </li>
+                        <li><span>Telefone</span> : +55 (31) 99501-3271 </li>
+                        <li><span>Discord</span> : vinix#4766 </li>
+                        <li><span>Local</span> : Belo Horizonte / MG </li>
+                    </ul>
+                    <ul class="social-icons pt-3">
+                        <li class="social-item"><a class="social-link" target="_blank" href="https://wa.me/5531995013271"><i class="ti-mobile" aria-hidden="true"></i></a></li>
+                        <li class="social-item"><a class="social-link" target="_blank" href="https://twitter.com/vinicius_diast"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                        <li class="social-item"><a class="social-link" target="_blank" href="https://www.linkedin.com/in/vinicius-dias-68b7ba1a3"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                        <li class="social-item"><a class="social-link" target="_blank" href="https://www.instagram.com/vinicius_diast"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                        <li class="social-item"><a class="social-link" target="_blank" href="https://github.com/vinicius-dias23"><i class="ti-github" aria-hidden="true"></i></a></li>
+                    </ul>  
                 </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-bar-chart icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Gerenciamento de Projetos</h6>
-                        <p class="subtitle">Trabalhando com metodologias ágil para a a gestão de projetos.</p>
-                        <hr>
+                <div class="col-lg-4 about-card">
+                    <h3 class="font-weight-light">Minha Experiência</h3>
+                    <span class="line mb-5"></span>
+                    <div class="row">
+                        <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
+                        <div class="col-10 ml-auto mr-3">
+                            <h6>UX Design</h6>
+                            <p class="subtitle">Para trazer a melhor experiência do usuário nas aplicações.</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 text-danger pt-1"><i class="ti-vector icon-lg"></i></div>
+                        <div class="col-10 ml-auto mr-3">
+                            <h6>Desenvolvimento Web</h6>
+                            <p class="subtitle">Por meio de linguagens e ferramentas que estão em alta no mercado.</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 text-danger pt-1"><i class="ti-bar-chart icon-lg"></i></div>
+                        <div class="col-10 ml-auto mr-3">
+                            <h6>Gerenciamento de Projetos</h6>
+                            <p class="subtitle">Trabalhando com metodologias ágil para a a gestão de projetos.</p>
+                            <hr>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <section class="section" id="service">
         <div class="container">
@@ -173,72 +174,58 @@
         <div class="container">
             <h1 class="mb-5"><span class="text-danger">Pacotes</span> Disponíveis</h1>
             <div class="row align-items-center">
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4">
                     <div class="price-card text-center mb-4">
-                        <h3 class="price-card-title">Free</h3>
+                        <h3 class="price-card-title">Portfólio</h3>
                         <div class="price-card-cost">
                             <sup class="ti-money"></sup>
-                            <span class="num">0</span>
-                            <span class="date">MO</span>
+                            <span class="num">-</span>
+                            <span class="date">A combinar</span>
                         </div>
                         <ul class="list">
-                            <li class="list-item">5 <span class="text-muted">Project</span></li>
-                            <li class="list-item">1GB <span class="text-muted">Storage</span></li>
-                            <li class="list-item"><span class="text-muted">No Domain</span></li>
-                            <li class="list-item">1 <span class="text-muted">User</span></li>
+                            <li class="list-item"><span class="text-muted">Estilização do seu gosto</span></li>
+                            <li class="list-item"><span class="text-muted">Formulário de contato</span></li>
+                            <li class="list-item"><span class="text-muted">Dominios e Sub Dominios configurados</span></li>
+                            <li class="list-item"><span class="text-muted">Design responsivo para celular</span></li>
+                            <li class="list-item"><span class="text-muted">Animações e efeitos visuais</span></li>
                         </ul>
-                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                        <a href="https://wa.me/5531995013271" target="_blank"><button class="btn btn-primary btn-rounded w-lg">Fazer um Orçamento</button></a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4">
                     <div class="price-card text-center mb-4">
-                        <h3 class="price-card-title">Basic</h3>
+                        <h3 class="price-card-title">Venda de serviços</h3>
                         <div class="price-card-cost">
                             <sup class="ti-money"></sup>
-                            <span class="num">10</span>
-                            <span class="date">MO</span>
+                            <span class="num">-</span>
+                            <span class="date">A combinar</span>
                         </div>
                         <ul class="list">
-                            <li class="list-item">50 <span class="text-muted">Project</span></li>
-                            <li class="list-item">10GB <span class="text-muted">Storage</span></li>
-                            <li class="list-item">1<span class="text-muted">Domain</span></li>
-                            <li class="list-item">5 <span class="text-muted">User</span></li>
+                            <li class="list-item"><span class="text-muted">Estilização do seu gosto</span></li>
+                            <li class="list-item"><span class="text-muted">Formulário de contato</span></li>
+                            <li class="list-item"><span class="text-muted">Dominios e Sub Dominios configurados</span></li>
+                            <li class="list-item"><span class="text-muted">Design responsivo para celular</span></li>
+                            <li class="list-item"><span class="text-muted">Vendas de serviços pelo site</span></li>
                         </ul>
-                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                        <a href="https://wa.me/5531995013271" target="_blank"><button class="btn btn-primary btn-rounded w-lg">Fazer um Orçamento</button></a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="price-card text-center price-card-requried mb-4">
-                        <h3 class="price-card-title">Exclusive</h3>
-                        <div class="price-card-cost">
-                            <sup class="ti-money"></sup>
-                            <span class="num">25</span>
-                            <span class="date">MO</span>
-                        </div>
-                        <ul class="list">
-                            <li class="list-item">150 <span class="text-muted">Project</span></li>
-                            <li class="list-item">15GB <span class="text-muted">Storage</span></li>
-                            <li class="list-item">5<span class="text-muted"> Domain</span></li>
-                            <li class="list-item">15<span class="text-muted">User</span></li>
-                        </ul>
-                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4">
                     <div class="price-card text-center mb-4">
-                        <h3 class="price-card-title">Pro</h3>
+                        <h3 class="price-card-title">Venda de produtos</h3>
                         <div class="price-card-cost">
                             <sup class="ti-money"></sup>
-                            <span class="num">99</span>
-                            <span class="date">MO</span>
+                            <span class="num">-</span>
+                            <span class="date">A combinar</span>
                         </div>
                         <ul class="list">
-                            <li class="list-item">500 <span class="text-muted">Project</span></li>
-                            <li class="list-item">1000GB <span class="text-muted">Storage</span></li>
-                            <li class="list-item">10<span class="text-muted"> Domain</span></li>
-                            <li class="list-item">Unlimite<span class="text-muted">User</span></li>
+                            <li class="list-item"><span class="text-muted">Estilização do seu gosto</span></li>
+                            <li class="list-item"><span class="text-muted">Formulário de contato</span></li>
+                            <li class="list-item"><span class="text-muted">Dominios e Sub Dominios configurados</span></li>
+                            <li class="list-item"><span class="text-muted">Design responsivo para celular</span></li>
+                            <li class="list-item"><span class="text-muted">Vendas de produtos pelo site</span></li>
                         </ul>
-                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                        <a href="https://wa.me/5531995013271" target="_blank"><button class="btn btn-primary btn-rounded w-lg">Fazer um Orçamento</button></a>
                     </div>
                 </div>
             </div>
@@ -247,35 +234,39 @@
     <section class="section bg-dark py-5">
         <div class="container text-center">
             <h2 class="text-light mb-5 font-weight-normal">Estou disponível para freelance</h2>
-            <button class="btn bg-primary w-lg" >Contrate-me</button>
+            <a href="https://wa.me/5531995013271" target="_blank"><button class="btn bg-primary w-lg" >Contrate-me</button></a>
         </div>
     </section>
 
     <!--Resume Section-->
     <section class="section" id="resume">
         <div class="container">
-            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+            <h2 class="mb-5"><span class="text-danger">Principais</span> Certificados</h2>
             <div class="row">
                 <div class="col-md-6 col-lg-4">
                     <div class="card">
                        <div class="card-header">
                             <div class="mt-2">
-                                <h4>Expertise</h4>
+                                <h4>Java Script</h4>
                                 <span class="line"></span>  
                             </div>
                         </div>
                         <div class="card-body">
-                            <h6 class="title text-danger">2017 - Present</h6>
-                            <P>UX Developer</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
+                            <h6 class="title text-danger">31/03/2022</h6>
+                            <P>JAVASCRIPT: DE PADRÕES A UMA ABORDAGEM FUNCIONAL</P>
+                            <a href="https://cursos.alura.com.br/certificate/viniciussd23/javascript-padroes-abordagem-funcional">https://cursos.alura.com.br/certificate/viniciussd23/javascript-padroes-abordagem-funcional</a>
                             <hr>
-                            <h6 class="title text-danger">2016 - 2017</h6>
-                            <P>Front-end Developer</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
+                            <h6 class="title text-danger">27/03/2022</h6>
+                            <P>JAVASCRIPT: PROGRAMANDO NA LINGUAGEM DA WEB</P>
+                            <a href="https://cursos.alura.com.br/certificate/viniciussd23/javascript-programando-na-linguagem-web">https://cursos.alura.com.br/certificate/viniciussd23/javascript-programando-na-linguagem-web</a>
                             <hr>
-                            <h6 class="title text-danger">2015 - 2016</h6>
-                            <P>UX Designer</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
+                            <h6 class="title text-danger">25/03/2022</h6>
+                            <P>JAVASCRIPT: EXPLORANDO A LINGUAGEM</P>
+                            <a href="https://cursos.alura.com.br/certificate/viniciussd23/javascript-introducao">https://cursos.alura.com.br/certificate/viniciussd23/javascript-introducao</a>
+                            <hr>
+                            <h6 class="title text-danger">22/04/2020</h6>
+                            <P>JAVASCRIPT: LAÇOS E LISTAS COM JAVASCRIPT</P>
+                            <a href="https://cursos.alura.com.br/certificate/f94345d0-563a-4412-a78b-965b0de0ce65">https://cursos.alura.com.br/certificate/f94345d0-563a-4412-a78b-965b0de0ce65</a>
                         </div>
                     </div>
                 </div>
@@ -283,22 +274,26 @@
                     <div class="card">
                        <div class="card-header">
                             <div class="mt-2">
-                                <h4>Education</h4>
+                                <h4>React</h4>
                                 <span class="line"></span>  
                             </div>
                         </div>
                         <div class="card-body">
-                            <h6 class="title text-danger">2017 - Present</h6>
-                            <P>B.E Computer Engineering</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error corrupti recusandae obcaecati odit repellat ducimus cum, minus tempora aperiam at.</P>
+                            <h6 class="title text-danger">05/09/2022</h6>
+                            <P>REACT: CONHECENDO A BIBLIOTECA REACT ROUTER</P>
+                            <a href="https://cursos.alura.com.br/certificate/viniciussd23/react-router-navegacao-spa">https://cursos.alura.com.br/certificate/43b44f32-69fc-466f-b59e-c851ef155cbe</a>
                             <hr>
-                            <h6 class="title text-danger">2016 - 2017</h6>
-                            <P>Diploma in Computer Engineering</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, id officiis quas placeat quia voluptas dolorum rem animi nostrum quae.aliquid repudiandae saepe!.</P>
+                            <h6 class="title text-danger">30/08/2022</h6>
+                            <P>REACT ROUTER: NAVEGAÇÃO EM UMA SPA</P>
+                            <a href="https://cursos.alura.com.br/certificate/viniciussd23/react-router-navegacao-spa">https://cursos.alura.com.br/certificate/viniciussd23/react-router-navegacao-spa</a>
                             <hr>
-                            <h6 class="title text-danger">2015 - 2016</h6>
-                            <P>High School Degree</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
+                            <h6 class="title text-danger">11/08/2022</h6>
+                            <P>REACT: GERENCIAMENTO DE ESTADOS GLOBAIS COM CONTEXTAPI</P>
+                            <a href="https://cursos.alura.com.br/certificate/1dd970b8-9be4-4c88-b1b4-ff1c8d117271">https://cursos.alura.com.br/certificate/1dd970b8-9be4-4c88-b1b4-ff1c8d117271</a>
+                            <hr>
+                            <h6 class="title text-danger">09/08/2022</h6>
+                            <P>REACT: ESCREVENDO COM TYPESCRIPT</P>
+                            <a href="https://cursos.alura.com.br/certificate/e47b1797-ebf6-4b4b-adb9-8e3edebd848e">https://cursos.alura.com.br/certificate/e47b1797-ebf6-4b4b-adb9-8e3edebd848e</a>
                             
                         </div>
                     </div>
@@ -307,56 +302,52 @@
                     <div class="card">
                        <div class="card-header">
                             <div class="pull-left">
-                                <h4 class="mt-2">Skills</h4>
+                                <h4 class="mt-2">Linguagens e Ferramentas</h4>
                                 <span class="line"></span>  
                             </div>
                         </div>
                         <div class="card-body pb-2">
-                           <h6>hTL5 &amp; CSS3</h6>
+                           <h6>HTML5 &amp; CSS3</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <h6>JavaScript</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>PHP</h6>
+                            <h6>React</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <h6>SQL</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>Laborum</h6>
+                            <h6>TypeScript</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>Tempora</h6>
+                            <h6>Firebase</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
                     <div class="card">
                        <div class="card-header">
                             <div class="pull-left">
-                                <h4 class="mt-2">Languages</h4>
+                                <h4 class="mt-2">Linguas</h4>
                                 <span class="line"></span>  
                             </div>
                         </div>
                         <div class="card-body pb-2">
                            <h6>English</h6>
-                            <div class="progress mb-3">
+                            <div class="progress mb-5">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>French</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Spanish</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 67%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <h6>Português</h6>
+                            <div class="progress mb-5">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
@@ -365,124 +356,49 @@
         </div>
     </section>
 
-    <section class="section bg-dark text-center">
+    <section class="section bg-dark text-center" id="rodape">
         <div class="container">
             <div class="row text-center">
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4">
                     <div class="row ">
                         <div class="col-5 text-right text-light border-right py-3">
                             <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">500</h1>
-                            <p class="text-light mb-1">Hours Worked</p>
+                            <h1 class="text-danger font-weight-bold font40">42</h1>
+                            <p class="text-light mb-1">Horas por semana trabalhadas</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4">
                     <div class="row">
                         <div class="col-5 text-right text-light border-right py-3">
                             <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">50K</h1>
-                            <p class="text-light mb-1">Project Finished</p>
+                            <h1 class="text-danger font-weight-bold font40">15</h1>
+                            <p class="text-light mb-1">Certificados de cursos de programação concluídos</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4">
                     <div class="row">
                         <div class="col-5 text-right text-light border-right py-3">
                             <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">200K</h1>
-                            <p class="text-light mb-1">Happy Clients</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="row">
-                        <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-heart-broken icon-xl"></i></div>
-                        </div>
-                        <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">2k</h1>
-                            <p class="text-light mb-1">Coffee Drinked</p>
+                            <h1 class="text-danger font-weight-bold font40">4</h1>
+                            <p class="text-light mb-1">Anos envolvido na área de programação</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <div class="section contact" id="contact">
-        <div id="map" class="map"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="contact-form-card">
-                        <h4 class="contact-title">Send a message</h4>
-                        <form action="">
-                            <div class="form-group">
-                                <input  class="form-control" type="text" placeholder="Name *" required>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" type="email" placeholder="Email *" required>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" id=" placeholder="Message *" rows="7" required></textarea>
-                            </div>
-                            <div class="form-group ">
-                                <button type="submit" class="form-control btn btn-primary" >Send Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-info-card">
-                        <h4 class="contact-title">Get in touch</h4>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-mobile icon-md"></i>
-                            </div>
-                            <div class="col-10 ">
-                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ (123) 456-789</span></h6>
-                            </div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-map-alt icon-md"></i>
-                            </div>
-                            <div class="col-10">
-                                <h6 class="d-inline">Address :<br> <span class="text-muted">12345 Fake ST NoWhere AB Country.</span></h6>
-                            </div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-envelope icon-md"></i>
-                            </div>
-                            <div class="col-10">
-                                <h6 class="d-inline">Email :<br> <span class="text-muted">info@website.com</span></h6>
-                            </div>
-                        </div>
-                        <ul class="social-icons pt-4">
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
-                        </ul> 
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
     <footer class="footer py-3">
         <div class="container">
             <p class="small mb-0 text-light">
-                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a> 
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <span class="text-danger" title="Bootstrap 4 Themes and Dashboards">Vinícius Dias</span> 
             </p>
         </div>
     </footer>
